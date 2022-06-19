@@ -1,14 +1,23 @@
 .mobile-wrapper {
   background-color: white;
   width: 320px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .events-wrapper-week {
   background-color: white;
   width: 527px;
+  gap: 44px;
+  display: flex;
+  flex-direction: column;
 }
 
 .events-wrapper-month {
   background-color: white;
   width: 527px;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
 }

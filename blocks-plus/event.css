@@ -9,7 +9,7 @@
   display: grid;
   grid-template-areas: "title icons" "details icons";
   grid-auto-rows: auto 1fr;
-  padding: 26px 26px 0;
+  padding: 0 26px;
 }
 .event__title {
   color: rgba(191, 21, 35, 1);
