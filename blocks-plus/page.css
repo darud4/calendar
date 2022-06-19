@@ -1,0 +1,6 @@
+.page {
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  padding: 100px;
+}

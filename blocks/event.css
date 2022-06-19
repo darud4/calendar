@@ -1,0 +1,74 @@
+.event {
+  padding: 20px 28px;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.09);
+  background-color: white;
+}
+.event_large {
+  box-shadow: none;
+  display: grid;
+  grid-template-areas: "title icons" "details icons";
+  grid-auto-rows: auto 1fr;
+  padding: 26px 26px 0;
+}
+.event__title {
+  color: rgba(191, 21, 35, 1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  grid-area: title;
+}
+.event__icons {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  grid-area: icons;
+}
+.event__icons_large {
+  flex-direction: column;
+}
+.event__icon {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.event__icon_type_food {
+  background-image: url(../../../../images/food.svg);
+}
+.event__icon_type_health {
+  background-image: url(../../../../images/health.svg);
+}
+.event__icon_type_medkit {
+  background-image: url(../../../../images/medkit.svg);
+}
+.event__icon_type_shower {
+  background-image: url(../../../../images/shower.svg);
+}
+.event__icon_type_sleep {
+  background-image: url(../../../../images/sleep.svg);
+}
+.event__details {
+  margin: 14px 0 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.53px;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  grid-area: details;
+}
+.event__details_large {
+  max-width: 300px;
+}
