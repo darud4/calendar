@@ -1,0 +1,30 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/event/event.css);
+@import url(../blocks/event/__details/event__details.css);
+@import url(../blocks/event/__icon/event__icon.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_food.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_health.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_medkit.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_shower.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_sleep.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_aids.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_clothdry.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_clothwash.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_covid.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_eyes.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_help.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_vaccine.css);
+@import url(../blocks/event/__icon/_type/event__icon_type_warm.css);
+
+@import url(../blocks/event/__icons/event__icons.css);
+@import url(../blocks/event/__title/event__title.css);
+
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/_large/events_large.css);
+@import url(../blocks/events/_title/events_title_sideway.css);
+@import url(../blocks/events/__container/events__container.css);
+@import url(../blocks/events/__title/events__title.css);
+@import url(../blocks/events/__title/_selected/events__title_selected.css);
