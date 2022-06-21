@@ -8,6 +8,7 @@
   margin: 0;
   max-width: 480px;
   box-sizing: border-box;
+  display: none;
 }
 
 .events_title_sideway .events__title {
@@ -18,4 +19,9 @@
   line-height: 29px;
   background-color: white;
   text-align: center;
+  display: inline-block;
+}
+
+.events_large .events__title {
+  display: inline-block;
 }
