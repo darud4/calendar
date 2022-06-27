@@ -3,6 +3,7 @@
   box-sizing: border-box;
   box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.09);
   background-color: white;
+  color: #1b1b1b;
 }
 .events_large .event {
   box-shadow: none;

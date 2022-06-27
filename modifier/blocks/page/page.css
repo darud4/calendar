@@ -3,4 +3,5 @@
   gap: 20px;
   flex-direction: column;
   padding: 100px;
+  max-width: 540px;
 }
